@@ -1,0 +1,70 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    padding: 10px 25px;
+}
+
+.hero-section {
+    padding: 80px 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+.img-fluid {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.interactive-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.interactive-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+
+.filter-btn {
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.computer-item {
+    transition: all 0.3s ease;
+}

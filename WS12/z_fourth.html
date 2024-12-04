@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tietokone Maailma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">Tietokone maailma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Aloitus sivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="second.html">Tietokoneiden historiaa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="third.html">Tietokoneiden komponentit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="z_fourth.html">Erilaiset tietokoneet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container my-5">
+        <h1 class="text-center mb-5">Eri tyyppiset tietokoneet</h1>
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-6 mb-4 text-center">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pöytätietokoneet</h5>
+                        <p class="card-text">Perinteinen tietokone, johon yhdistetään oheislaitteet kuten näppäimistö, hiiri ja näyttö. Pöytätietokoneet ovat tehokkaampia, kuin kannettavat, koska niissä on parempi jäähdytysteho.</p>
+                    </div>
+                </div>
+                <img src="images/RGB-Computer.jpeg" class="img-fluid" alt="Desktop Computer">
+            </div>
+
+            
+            <div class="col-lg-3 col-md-6 mb-4 text-center">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Kannettavat</h5>
+                        <p class="card-text">Kannnettavissa tietokoneissa kaikki oheislaitteet on sisäänrakennettu, joka on hyvin käytännöllistä, jos tarvitsee kuljettaa tietokonetta. Tämän käytännöllisyyden vuoksi ne ovat suosittuja työpaikoisssa ja kouluissa.</p>
+                    </div>
+                </div>
+                <img src="images/laptop.webp" class="img-fluid" alt="Laptop Computer">
+            </div>
+
+            
+            <div class="col-lg-3 col-md-6 mb-4 text-center">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tabletit</h5>
+                        <p class="card-text">Tabletit ovat vielä kompaktimpeja, kuin kannettavat tietokoneet. Niissä ei ole näppäimistöä tai hiirtä ollenkaan, vaan niitä operoidaan kosketusnäytöllä. Ne sopivat kevyeen työskentelyyn ja netin selailuun.</p>
+                    </div>
+                </div>
+                <img src="images/tablet.webp" class="img-fluid" alt="Tablet">
+            </div>
+
+            
+            <div class="col-lg-3 col-md-6 mb-4 text-center">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Palvelimet</h5>
+                        <p class="card-text">Palvelin on tietokone tai järjestelmä, joka tarjoaa palveluita tai resursseja muille tietokoneille (asiakkaille) verkossa. Esimerkiksi verkkosivustot, sähköposti ja tiedostojen jakaminen toimivat palvelimien kautta.</p>
+                    </div>
+                </div>
+                <img src="images/server.jpg" class="img-fluid" alt="Server">
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="container mt-4">
+    <div class="text-center mb-4">
+        <h4>Valitse käyttötarkoitus:</h4>
+        <div class="btn-group" role="group">
+            
+            <button type="button" class="btn btn-primary filter-btn" data-filter="gaming">Pelikäyttö</button>
+            <button type="button" class="btn btn-primary filter-btn" data-filter="work">Työkäyttö</button>
+            <button type="button" class="btn btn-primary filter-btn" data-filter="home">Kotikäyttö</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        
+        <div class="col-lg-3 col-md-6 mb-4 computer-item gaming work">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Pelitietokoneet</h5>
+                    <p class="card-text">Pöytätietokone tai kannettava, jossa on tehokkaampi näytönohjain verrattuna perus tietokoneeseen. Tällaisia tietokoneita markkinoidaan pelitietokoneina.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 col-md-6 mb-4 computer-item work home">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Kannettavat</h5>
+                    <p class="card-text">Mukana kulkeva ratkaisu työhön ja kotikäyttöön. Kannettavista on edullisia vaihtoehtoja peruskäyttäjälle sekä tehokkaita vaihtoehtoja ammattilaiselle.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 col-md-6 mb-4 computer-item home">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tabletit</h5>
+                    <p class="card-text">Kevyt ratkaisu viihdekäyttöön ja selaamiseen. Erittäin helposti mukana kulkeva laite, jolla onnistuu myös kevyt työskentely.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 col-md-6 mb-4 computer-item work">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Palvelimet</h5>
+                    <p class="card-text">Tehokas ratkaisu yrityskäyttöön ja palveluiden ylläpitoon. Isommilla IT yrityksillä saattaa olla omia palvelimia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const items = document.querySelectorAll('.computer-item');
+    
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                
+                filterBtns.forEach(b => b.classList.remove('active'));
+                
+                btn.classList.add('active');
+    
+                const filterValue = btn.getAttribute('data-filter');
+    
+                items.forEach(item => {
+                    if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+    </script>
+
+
+
+
+
+    <footer class="mt-auto bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2024 Minun nettisivuni. Kaikki oikeudet pidätetään.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
